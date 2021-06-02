@@ -1,11 +1,11 @@
 ﻿namespace Patern
 {
-    public class SoftGirder 
+   public class SoftGirder 
     {
-        public string Color { get; set; }
-        public string Size { get; set; }
-        public string Name { get; set; }
-        public int Price { get; set; }
+        public string Color { get;private set; }
+        public string Size { get; private set; }
+        public string Name { get; private set; }
+        public int Price { get; private set; }
         public SoftGirder(string Color, string Size,string Name, int Price)
         {
             this.Color = Color;
